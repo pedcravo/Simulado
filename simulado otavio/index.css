@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(167, 166, 166);
+}
+
+.cabeça{
+    margin-bottom: 10px;
+    margin-left: 20%;
+    width: 60%;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 90%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main{
+    width:100%;
+    display: flex;
+    align-items : center;
+    flex-direction: column;
+}
+
+img{
+    width: 60%;
+    border-radius: 10px;
+}
+
+button{
+    width: 30%;
+    border-radius: 8px;
+    border-style:hidden;
+    margin-top: 20px;
+}
+
+div.corpo{
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div#lorem{
+    width: 45%;   
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div#video{
+    width: 45%
+}
+
+.rodape{
+    background-color: rgb(219, 219, 219);
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+}
+
+ul{
+    width: 100%;
+    list-style: none;
+    display: flex;justify-content: space-evenly;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
